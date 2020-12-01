@@ -22,8 +22,9 @@ int main(){
                 num2 = array[left];
                 num3 = array[right];
                 std::cout << array[i] << " " << array[left] << " " << array[right] << std::endl;
-                left++;
-                right--;
+                break;
+                // left++;
+                // right--;
             } else if(currentSum < target){
                 left++;
             } else if(currentSum > target){
